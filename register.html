@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Registrasi</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+  </head>
+  
+<body>
+  <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html">Beranda</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="loginVerifikasi.html">Verifikasi Nilai</a></li>
+          <li><a href="loginPendaftaran.html">Pendaftaran</a></li>
+          <li><a href="siswaDiterima.html">Siswa Diterima</a></li>
+          <li><a href="akun.html">Akun saya</a></li>
+          <li><a href="index.html">Keluar</a></li>
+          <li>
+            <div class="position-relative">
+            <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+            <!-- ======= Search Form ======= -->
+            <div class="search-form-wrap js-search-form-wrap">
+              <form action="search-result.html" class="search-form">
+                <span class="icon bi-search"></span>
+                <input type="text" placeholder="Search" class="form-control">
+                <button class="btn js-search-close"><span class="bi-x"></span></button>
+              </form>
+            </div><!-- End Search Form -->
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Main -->
+  <main>
+    <div class="container">
+      <section class="section register min-vh-80 d-flex flex-column align-items-center justify-content-center py-4">
+        <div class="container mt-5">
+          <h2 class="alert alert-primary text-center mt-5">Registrasi akun Sistem Pendaftaran Grafika</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="column">
+            <div class="container mt-3">
+                <div class="col-lg-12 col-md-6 d-flex flex-column justify-content-left">
+                  <ol>
+                    <h6>Tata cara Registrasi</h6>
+                    <li>Masukkan Nama anda</li>
+                    <li>Masukkan NISN anda</li>
+                    <li>Masukkan NPSN sekolah anda sebelumnya</li>
+                    <li>Masukan Tanggal Lahir anda</li>
+                  </ol>
+                </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="container">
+                <div class="col-lg-12 col-md-6 d-flex flex-column justify-content-left">
+                </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="container mt-3">
+                <div class="col-lg-12 col-md-6 d-flex flex-column justify-content-end">
+                  <div class="card mb-3">
+                    <div class="card-body">
+                      <div class="pt-4 pb-2">
+                        <h5 class="card-title text-center pb-0 fs-4">Registrasi</h5>
+                        <p class="text-center small">Sistem Pendaftaran Grafika</p>
+                      </div>
+                      <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-12">
+                          <label for="yourUsername" class="form-label">Nama Lengkap</label>
+                          <div class="input-group has-validation">
+                            <!-- <span class="input-group-text" id="inputGroupPrepend"></span> -->
+                            <input type="text" name="npsn" class="form-control" id="yourUsername" placeholder="Masukkan NPSN SMP anda" required>
+                            <div class="invalid-feedback">Masukkan Nama Lengkap anda</div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <label for="yourUsername" class="form-label">Nomor Induk Siswa Nasional</label>
+                          <div class="input-group has-validation">
+                            <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
+                            <input type="text" name="nisn" class="form-control" id="yourUsername" placeholder="Masukkan NISN anda" required>
+                            <div class="invalid-feedback">Masukkan NISN anda</div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <label for="yourUsername" class="form-label">Nomor Pokok Sekolah Nasional</label>
+                          <div class="input-group has-validation">
+                            <!-- <span class="input-group-text" id="inputGroupPrepend"></span> -->
+                            <input type="text" name="npsn" class="form-control" id="yourUsername" placeholder="Masukkan NPSN SMP anda" required>
+                            <div class="invalid-feedback">Masukkan NPSN SMP anda</div>
+                          </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="yourPassword" class="form-label">Tanggal Lahir</label>
+                          <input type="date" name="tglahir" class="form-control" id="yourPassword" required>
+                          <div class="invalid-feedback">Masukkan tanggal lahir anda</div>
+                        </div>
+                      </form>
+                      <div class="col-12 mt-3">
+                        <a href="index.html">
+                          <button class="btn btn-primary w-100" type="submit">Register</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </section>
+    </div>
+  </main>
+  <!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
