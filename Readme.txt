@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Sistem ini dibuat untuk memudahkan sekolah dalam melayani PPDB (Pendaftaran Peserta Didik Baru), yang mana sistem ini masih sangat sederhana.
 
-Template Name: Mentor
-Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Didalam sistem ini admin dapat melakukan manage website, salah satunya manage artikel
