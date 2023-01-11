@@ -7,8 +7,8 @@ Sistem ini dibuat untuk memudahkan admin mengelola data SPG, salah satunya data 
 * Mengedit artikel, dan
 * Menghapus artikel.
 
-_Tampilan User dan Guest bisa dilihat di: https://github.com/rachelliacs/Web_SPG.git_
-
 ### Preview
 
 ![screenshot](assets/screenshot/screenshot1.jpeg)
+
+**[Klik untuk lihat tampilan User dan Guest](https://github.com/rachelliacs/Web_SPG.git)**
