@@ -1,9 +1,14 @@
-Sistem ini dibuat untuk memudahkan admin mengelola SPG (Sistem Pendaftaran Grafika), yang mana sistem ini masih sangat sederhana dibuat menggunakan HTML, CSS, dan PHP serta menggunakan database MySQL.
+# Admin Sistem Pendaftaran Grafika
+Sistem ini dibuat untuk memudahkan admin mengelola data SPG, salah satunya data artikel, sistem ini masih sangat sederhana dibuat menggunakan **`HTML`**, **`CSS`**, dan **`PHP`** serta menggunakan database **`MySQL`**.
 
-Tampilan User dan Guest bisa dilihat di: https://github.com/rachelliacs/Web_SPG.git
+### Ketika mengelola data Artikel Admin dapat:
+* Menambahkan artikel,
+* Melihat artikel,
+* Mengedit artikel, dan
+* Menghapus artikel.
 
-Didalam sistem ini admin dapat melakukan manage website, salah satunya manage artikel
+_Tampilan User dan Guest bisa dilihat di: https://github.com/rachelliacs/Web_SPG.git_
 
-Preview
+### Preview
 
 ![screenshot](assets/screenshot/screenshot1.jpeg)
